@@ -2,6 +2,7 @@
 #include"Book.h"
 #include <iostream>
 #include<Windows.h>
+#include"FileBook.h"
 using namespace std;
 
 class Book
@@ -11,7 +12,7 @@ class Book
 	char* _publisher;
 	int _year;
 	int _pages;
-	
+	friend class FileBook;
 public:
 	Book(const char* a, const char* n, char* p, int y, int page) {
 		_year = y;

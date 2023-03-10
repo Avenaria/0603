@@ -141,9 +141,11 @@
   <ItemGroup>
     <ClCompile Include="0603.cpp" />
     <ClCompile Include="Book.cpp" />
+    <ClCompile Include="FileBook.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Book.h" />
+    <ClInclude Include="FileBook.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
